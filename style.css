@@ -9,7 +9,7 @@ body{
     padding: 0px;
     min-height: 100vh;
     display: grid;
-    grid-template-rows: 10% 90%;
+    grid-template-rows: 5% 50% 45%;
 }
 
 .navbar {
@@ -17,7 +17,6 @@ body{
     overflow: hidden;
     display: grid;
     grid-template-columns: 50% 12.5% 12.5% 12.5% 12.5%;
-    grid-template-rows: 100%;
   }
 
 .navbar a {
@@ -81,4 +80,19 @@ h2 {
 
 h4 {
     font-size: 1.5vw;
+}
+
+.aboutSection {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+#selfimage {
+    width: 40%;
+    margin: 8vw 10vw 5vw 10vw;
+}
+
+.about {
+    margin: 8vw 8vw 0vw 0vw; 
 }
