@@ -85,6 +85,7 @@ h4 {
 .about-section {
     display: grid;
     grid-template-columns: 45% 55%;
+    background-color: #D9D9D9;
 }
 
 
@@ -101,12 +102,13 @@ h4 {
     display: grid;
     place-items: center;
     margin: 2vw;
-    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-columns: 33.3% 33.3% 33.3%;    
 }
 
 #portfolio-header {
     width: 100%;
     text-align: center;
+    margin-top: 5vw;
 }
 
 .place {
@@ -115,3 +117,10 @@ h4 {
     background-color: #282828;
     margin-top: 4vw;
 }
+
+#contact-header {
+    text-align: center;
+    margin-top: 5vw;
+}
+
+
