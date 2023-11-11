@@ -82,17 +82,36 @@ h4 {
     font-size: 1.5vw;
 }
 
-.aboutSection {
+.about-section {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 45% 55%;
 }
 
 
 #selfimage {
     width: 40%;
-    margin: 8vw 10vw 5vw 10vw;
+    margin: 8vw 10vw 0vw 10vw;
 }
 
 .about {
     margin: 8vw 8vw 0vw 0vw; 
+}
+
+.portfolio {
+    display: grid;
+    place-items: center;
+    margin: 2vw;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+#portfolio-header {
+    width: 100%;
+    text-align: center;
+}
+
+.place {
+    height: 10vw;
+    width: 10vw;
+    background-color: #282828;
+    margin-top: 4vw;
 }
