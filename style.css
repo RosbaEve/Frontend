@@ -112,15 +112,26 @@ h4 {
 }
 
 .place {
-    height: 10vw;
-    width: 10vw;
+    height: 70%;
+    width: 70%;
     background-color: #282828;
     margin-top: 4vw;
+}
+
+.place :hover {
+    transform: scale(1.1);
+    border: solid; 
+}
+
+.place img {
+    width: 100%;
+    height: 100%;
 }
 
 #contact-header {
     text-align: center;
     margin-top: 5vw;
 }
+
 
 
